@@ -1,0 +1,16 @@
+# node js dependencies
+node_modules/
+coverage/
+# editor files
+.vscode/
+# distribution directories
+dist/
+__snapshots__/
+src/tests/__snapshots__/
+# Mac Files
+.DS_Store
+# lock dependence
+package-lock.json
+yarn.lock
+# environment variables
+.env
