@@ -5,8 +5,6 @@ coverage/
 .vscode/
 # distribution directories
 dist/
-__snapshots__/
-src/tests/__snapshots__/
 # Mac Files
 .DS_Store
 # lock dependence
