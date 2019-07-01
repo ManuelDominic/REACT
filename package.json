@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch --coverage",
+    "test": "jest --coverage",
     "start": "webpack-dev-server --open --hot --mode development",
-    "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
     "build": "webpack -d",
     "lint": "eslint"
   },

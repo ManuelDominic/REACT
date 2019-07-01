@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonPost /> should render posted name in "debug" mode with mount 1`] = `
+<PersonPost
+  debug={true}
+>
+  <div>
+    <form
+      onSubmit={[Function]}
+    >
+      <label>
+        Person Name:
+        <input
+          name="name"
+          onChange={[Function]}
+          type="text"
+        />
+      </label>
+      <button
+        type="submit"
+      >
+        Add
+      </button>
+    </form>
+  </div>
+</PersonPost>
+`;
